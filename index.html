@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogger Dashboard</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <button onclick="goBack()">Back</button>
+      <h1>Leave Management Dashboard</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid-container">
+      <div class="grid-item" onclick="downloadPDF('file-id-1')">
+        <h3>Leaves Account History</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="downloadPDF('file-id-2')">
+        <h3>Apply Leave</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="downloadPDF('file-id-3')">
+        <h3>Apply Special Duty</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="down
+        loadPDF('file-id-4')">
+        <h3>Apply Optional Holiday</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="downloadPDF('file-id-5')">
+        <h3>Leave Report</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="downloadPDF('file-id-6')">
+        <h3>Special Duty Report</h3>
+        <button>Download</button>
+      </div>
+      <div class="grid-item" onclick="downloadPDF('file-id-7')">
+        <h3>Declare Local Holiday</h3>
+        <button>Download</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script> <!-- Link to external JS -->
+</body>
+</html>
